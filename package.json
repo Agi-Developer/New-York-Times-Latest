@@ -1,5 +1,5 @@
 {
-  "homepage": "nytimes-app.now.sh",
+  "homepage": "nytimes-app",
   "scripts": {
     "start": "react-scripts start",
     "now-start": "serve -s ./build",
@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "connected-react-router": "4.5.0",
+    "@reach/router": "^1.2.1",
+		"node-sass": "^4.11.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-redux": "5.1.1",
