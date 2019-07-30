@@ -21,12 +21,22 @@ npm run dev
 ## Building for Production
 
 ```sh
-npm run build
+npm run start
 ```
 
 ## Demo
 
-[here](https://nytimes-app-xebia.herokuapp.com/)
+[here](https://stupefied-sinoussi-7a41d5.netlify.com/)
+
+## Desktop App
+
+![](Desktop.PNG)
+
+## Mobile App
+
+![](MobApp.PNG)
+
+
 
 ### Recommendations
 
