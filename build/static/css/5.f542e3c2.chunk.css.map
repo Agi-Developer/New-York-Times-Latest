@@ -1,0 +1,1 @@
+{"version":3,"sources":["D:\\react\\New-York-Times-Latest-master/src\\NotFound\\NotFound.scss"],"names":[],"mappings":"AAAA,WACC,YAAa,CACb,YAAa,CACb,kBAAmB,CACnB,sBAAuB","file":"5.f542e3c2.chunk.css","sourcesContent":[".not-found {\n\theight: 100vh;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n}\n"]}
