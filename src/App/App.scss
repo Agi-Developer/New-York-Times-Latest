@@ -1,0 +1,23 @@
+@import '../globals.scss';
+
+header {
+	background-color: #333333;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-weight: bold;
+	box-sizing: border-box;
+
+	.logo {
+		cursor: pointer;
+	}
+}
+
+footer {
+	background-color: #bdbdbd;
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+	height: $footer-height;
+	box-sizing: border-box;
+}

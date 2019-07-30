@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import CircularProgress from '@material-ui/core/CircularProgress';
+import { makeStyles } from '@material-ui/core/styles';
+const useStyles = makeStyles(theme => ({
+	root: {
+		display: "flex",
+		justifyContent: 'center',
+		alignItems: 'center',
+		alignContent: "center"
+	},
+	
+  }));
 
 export default function Loading() {
-	const [dots, updateDots] = useState('.');
-
-	useEffect(() => {
-		const timeInterval = setInterval(() => {
-			if (dots.length < 3) {
-				updateDots(dots + '.');
-			} else {
-				updateDots('.');
-			}
-		}, 1000);
-
-		return () => {
-			clearInterval(timeInterval);
-		};
-	}, [dots]);
-
-	return <div className="loading">Loading{dots}</div>;
+	const classes = useStyles();
+	return (
+		<div className={classes.root} >
+			<CircularProgress />
+		</div>
+	);
 }

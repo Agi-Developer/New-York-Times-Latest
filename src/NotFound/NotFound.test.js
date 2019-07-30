@@ -1,8 +1,12 @@
 import React from 'react';
-import { render } from 'react-testing-library';
+import { cleanup, render } from 'react-testing-library';
 import NotFound from './NotFound';
 
 describe('NotFound', () => {
+	afterEach(() => {
+		cleanup();
+	});
+
 	it('should have right 404 text', () => {
 		const { container } = render(<NotFound />);
 

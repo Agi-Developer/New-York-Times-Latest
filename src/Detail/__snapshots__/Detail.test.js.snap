@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail should render properly with given data 1`] = `
+<main
+  class="detail"
+>
+  <img
+    alt="a title"
+    class="detail--image"
+    src="https://imgplaceholder.com"
+  />
+  <h2
+    class="detail--title"
+  >
+    a title
+  </h2>
+  <h5>
+    2019-24-1
+  </h5>
+  <p>
+    an abstract
+  </p>
+  <a
+    href="https://url.com"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Read More
+  </a>
+</main>
+`;
